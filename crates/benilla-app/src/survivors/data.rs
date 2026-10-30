@@ -160,7 +160,7 @@ pub(crate) static ABILITIES: &[AbilityDef] = &[
         122,
         Nova {
             damage: 8.0,
-            cooldown: 7.0,
+            cooldown: 6.7,
             radius: 9.0,
             effect: Effect::Root(2.5),
             mark: 122
@@ -265,7 +265,7 @@ pub(crate) static ABILITIES: &[AbilityDef] = &[
         Nova {
             damage: 16.0,
             cooldown: 4.0,
-            radius: 7.0
+            radius: 7.5
         }
     ),
     ability!(
@@ -646,7 +646,7 @@ pub(crate) static ABILITIES: &[AbilityDef] = &[
             damage: 18.0,
             cooldown: 3.0,
             range: 20.0,
-            radius: 9.0,
+            radius: 9.5,
             count: 3
         }
     ),
